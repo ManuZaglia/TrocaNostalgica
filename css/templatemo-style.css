@@ -199,6 +199,14 @@ a:hover { color:#009999; }
     background: transparent;
 }
 
+.cor {
+    color:  #015252;
+    background-color: #FFF;
+    padding: 20px;
+    padding-inline: 100px;
+    border-radius: 10px;
+}
+
 .tm-mt-60 { margin-top: 60px; }
 .tm-mb-50 { margin-bottom: 50px; }
 .tm-mb-74 { margin-bottom: 74px; }
