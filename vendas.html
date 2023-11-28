@@ -60,7 +60,24 @@ https://templatemo.com/tm-556-catalog-z
                 Venda ou troque seus produtos vintages
             </h2>
         </div>
-
+        <body>
+            <div class="container mt-5">
+                <h1>Lista de Produtos</h1>
+                <button class="btn btn-primary" onclick="adicionarProduto()">Adicionar Produto</button>
+                <ul id="lista-produtos" class="list-group"></ul>
+            </div>
+        
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            <script src="script.js"></script>
+        
+            <script>
+                function adicionarProduto() {
+                    window.location.href = 'adicionar_produto.html';
+                }
+            </script>
+        </body>
     <footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
         <div class="container-fluid tm-container-small">
             <div class="row">
